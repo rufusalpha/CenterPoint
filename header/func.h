@@ -13,7 +13,7 @@ struct Point{
 /**
 * Function that prints Point Struct
 **/
-void printPoint( Point z );
+void printPoint( Point z, char *name );
 
 /**
 * Function that find center between two points
@@ -26,7 +26,10 @@ Point middle( Point x, Point y );
 **/
 float char_to_float( char *in );
 
-
+/**
+*Function that displays lenghts of sides of a rectangle written on this point
+**/
+Point length( Point x, Point y ); 
 
 
 
