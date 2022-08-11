@@ -12,7 +12,7 @@ float char_to_float( char *in ){
     return std::stof(out);
 }
 
-void printPoint( Point z, char *name ){ std::cout << name <<" (" << z.x << "; " << z.y << ") " << std::endl; }
+void printPoint( Point z, std::string name ){ std::cout << name <<" (" << z.x << "; " << z.y << ") " << std::endl; }
 
 Point middle( Point x, Point y ){
     Point temp;

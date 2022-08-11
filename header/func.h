@@ -1,6 +1,8 @@
 #ifndef FUNC_H_
 #define FUNC_H_
 
+#include <string>
+
 /**
 * Structure holding 2D point coords
 **/
@@ -13,7 +15,7 @@ struct Point{
 /**
 * Function that prints Point Struct
 **/
-void printPoint( Point z, char *name );
+void printPoint( Point z,  std::string name );
 
 /**
 * Function that find center between two points
